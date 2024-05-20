@@ -47,26 +47,28 @@ Clona el repositorio y navega al directorio del proyecto:
 ``` git clone https://github.com/HoracioDSS/Tarea-1-ICD/tree/main.git ```
 
 ### Instala las dependencias necesarias utilizando Conda:
-
-``` conda create --name shakespeare-analysis python=3.8
+```
+conda create --name shakespeare-analysis python=3.8
 conda activate shakespeare-analysis
-conda install pandas matplotlib sqlalchemy pymysql'''
-
+conda install pandas matplotlib sqlalchemy pymysql 
+```
 ## Ejecuta el script en un entorno Jupyter Notebook:
 
-``` jupyter notebook ```
+```jupyter notebook ```
 
 ## En caso de no usar Conda: 
 Crea un entorno virtual e instala las dependencias necesarias usando pip:
-
-''' python -m venv env
+```
+python -m venv env
 source env/bin/activate   
-pip install -r requirements.txt ''' 
+pip install -r requirements.txt
+```
 
 ## Ejecuta el script en un entorno Jupyter Notebook:
-
-''' pip install jupyter
-jupyter notebook '''
+```
+pip install jupyter
+jupyter notebook
+```
 
 
 
