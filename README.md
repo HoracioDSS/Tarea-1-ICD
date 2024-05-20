@@ -39,9 +39,13 @@ Columnas: id, ParagraphNum, PlainText, character_id, chapter_id
 Para realizar el análisis y procesamiento de datos descrito en este informe, se ha creado un script en Python. Este script automatiza los pasos necesarios para:
 
 Conectar a la base de datos y extraer los datos relevantes.
+
 Realizar la limpieza de datos, incluyendo la eliminación de símbolos y signos de puntuación no deseados.
+
 Generar análisis estadísticos y visualizaciones de los datos.
+
 Identificar las palabras más frecuentes en las obras de Shakespeare.
+
 
 ##  Uso del Script
 ### Para ejecutar el script, sigue estos pasos:
