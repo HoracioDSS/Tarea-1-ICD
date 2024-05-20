@@ -14,18 +14,18 @@ pymysql
 
 Para la limpieza y el conteo de palabras se retiraron varios símbolos y signos de puntuación. Los análisis temporales de las obras consideraron el periodo 1588-1613, dividido en periodos de 5 años. La base de datos fue obtenida del Relational Dataset Repository.
 
-# Descripción de la base de datos y resultados obtenidos: 
+## Descripción de la base de datos y resultados obtenidos: 
 
-## Tabla works:
+### Tabla works:
 Columnas: id, Title, LongTitle, Date, GenreType
 
-## Tabla chapters:
+### Tabla chapters:
 Columnas: id, Act, Scene, Description, work_id
 
-## Tabla characters:
+### Tabla characters:
 Columnas: id, CharName, Abbrev, Description
 
-## Tabla paragraphs:
+### Tabla paragraphs:
 Columnas: id, ParagraphNum, PlainText, character_id, chapter_id
 
 # Script de Análisis:
@@ -40,17 +40,17 @@ Identificar las palabras más frecuentes en las obras de Shakespeare.
 ### Para ejecutar el script, sigue estos pasos:
 Clona el repositorio y navega al directorio del proyecto:
 
-''' git clone https://github.com/HoracioDSS/Tarea-1-ICD/tree/main.git '''
+``` git clone https://github.com/HoracioDSS/Tarea-1-ICD/tree/main.git ```
 
 ### Instala las dependencias necesarias utilizando Conda:
 
-'''conda create --name shakespeare-analysis python=3.8
+``` conda create --name shakespeare-analysis python=3.8
 conda activate shakespeare-analysis
 conda install pandas matplotlib sqlalchemy pymysql'''
 
 ## Ejecuta el script en un entorno Jupyter Notebook:
 
-''' jupyter notebook '''
+``` jupyter notebook ```
 
 ## En caso de no usar Conda: 
 Crea un entorno virtual e instala las dependencias necesarias usando pip:
