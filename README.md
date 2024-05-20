@@ -36,17 +36,17 @@ Realizar la limpieza de datos, incluyendo la eliminación de símbolos y signos 
 Generar análisis estadísticos y visualizaciones de los datos.
 Identificar las palabras más frecuentes en las obras de Shakespeare.
 
-# Uso del Script
-## Para ejecutar el script, sigue estos pasos:
+##  Uso del Script
+### Para ejecutar el script, sigue estos pasos:
 Clona el repositorio y navega al directorio del proyecto:
 
 ''' git clone https://github.com/HoracioDSS/Tarea-1-ICD/tree/main.git '''
 
-## Instala las dependencias necesarias utilizando Conda:
+### Instala las dependencias necesarias utilizando Conda:
 
-''' conda create --name shakespeare-analysis python=3.8
+'''conda create --name shakespeare-analysis python=3.8
 conda activate shakespeare-analysis
-conda install pandas matplotlib sqlalchemy pymysql '''
+conda install pandas matplotlib sqlalchemy pymysql'''
 
 ## Ejecuta el script en un entorno Jupyter Notebook:
 
