@@ -21,7 +21,7 @@ pymysql
 
 Para la limpieza y el conteo de palabras se retiraron varios símbolos y signos de puntuación. Los análisis temporales de las obras consideraron el periodo 1588-1613, dividido en periodos de 5 años. La base de datos fue obtenida del Relational Dataset Repository.
 
-## Descripción de la base de datos y resultados obtenidos: 
+## Descripción de la base de datos: 
 
 ### Tabla works:
 Columnas: id, Title, LongTitle, Date, GenreType
