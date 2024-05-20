@@ -1,6 +1,6 @@
 Encontraran 4 archivos: 
 
-1: Pdf con informe "Informe Tarea 1 ICD"
+1: Pdf con informe "Informe_Tarea1_icd"
 
 2: Script .python "Tarea1_icd_notebook"
 
