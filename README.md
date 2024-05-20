@@ -1,7 +1,11 @@
 Encontraran 4 archivos: 
+
 1: Pdf con informe "Informe Tarea 1 ICD"
+
 2: Script .python "Tarea1_icd_notebook"
+
 3: Script .ipynb "Tarea1_icd_.ipynb"
+
 4: Archivo README.md
 
 # Metodología
